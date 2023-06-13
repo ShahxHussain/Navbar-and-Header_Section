@@ -1,0 +1,122 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    margin-left: 40px;
+}
+
+/* Navbar container */
+.navbar {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0D0D0D;
+    padding: 10px;
+}
+
+/* Navbar logo */
+.logo img {
+    height: 40px;
+}
+
+/* Navbar toggle button */
+.toggle-nav {
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Main navigation */
+.main-nav {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+/* Navigation links */
+.nav-links {
+    margin-right: 15px;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #62687C;
+}
+
+/* Home button */
+.nav-links.home {
+    color: blue;
+}
+
+/* Let's Talk button */
+.lets-talk-btn {
+    background-color: #fff;
+    color: #333;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+Navigation links on hover
+.nav-links:hover {
+    color: #f00;
+    /* Update with your desired hover color */
+}
+
+body {
+    
+    background-repeat: no-repeat;
+    height: 80vh;
+    background-color: black;
+    background-size: cover;
+    background-position: center bottom; /* Position the image at the center horizontally and at the bottom vertically */
+  }
+
+  .image{
+    height: 70vh;
+    margin-top: 100px;
+  }
+  
+  .container .image .fancy {
+    position: relative;
+    top: -46vh;
+    left: 38%;
+    transform: translate(-70%, -20%);
+    width: 600px; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+    z-index: 1;
+  }
+
+  .container .lets-talk-btn{
+    position: relative;
+    
+  }
+
+  .container .buttons {
+    position: relative;
+    top: 40%;
+    right: 29%;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+  }
+  
+  .buttons .button {
+    background-color: rgb(57, 57, 244);
+    color: white;
+    position: relative;
+    top: -32vh;
+    left: -1%;
+    width: 140px;
+    margin: 0 20px;
+    padding: 10px 29px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
